@@ -22,4 +22,3 @@ The PSAU Schedule Extension is a Chrome extension that generates a file with you
 ## Authors
 
 - Abdullah0f
--
