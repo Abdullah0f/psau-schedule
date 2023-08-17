@@ -2,7 +2,7 @@
 
 ## Overview
 
-The PSAU Schedule Extension is a Chrome extension that generates a file with your schedule in an easy-to-read format that can be easily imported into another site. This extension was created to solve the problem of viewing schedules on the official university website, which can be difficult to read and understand. By using this extension, PSAU students can now view their schedule hassle-free and plan their week ahead. Our solution aligns with the United Nations 17 Sustainable Development Goals by empowering students to manage their time more efficiently.
+The PSAU Schedule Extension is a Chrome extension that generates a file with your schedule in an easy-to-read format that can be easily imported into another site. This extension was created to solve the problem of viewing schedules on the official university website, which can be difficult to read and understand. By using this extension, PSAU students can now view their schedule hassle-free and plan their week ahead.
 
 ## How to Use
 
