@@ -168,7 +168,7 @@ function createItems() {
     o.title = x.name;
     o.meetingTimes = createMeetingTimes(x.rows);
     o.backgroundColor = getColor();
-    arr.push(o);
+    if (o.meetingTimes) arr.push(o);
   });
   return arr;
 }
@@ -193,9 +193,19 @@ function createMeetingTimes(rows) {
     o.location = x.location;
     setTimes(o, x.time);
     o.days = createDays(x.day);
-    arr.push(o);
+
+    // if o.days always false, then dont push
+    let push = false;
+    for (let i in o.days) {
+      if (o.days[i]) {
+        push = true;
+        break;
+      }
+    }
+    if (push) arr.push(o);
   });
-  return arr;
+
+  return arr.length ? arr : undefined;
 }
 
 function createDays(d) {
